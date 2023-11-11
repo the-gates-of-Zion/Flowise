@@ -14,8 +14,11 @@ git checkout master
 # aren't already in upstream/master are replayed on top of that
 # other branch:
 
-git merge upstream/master
+git merge upstream/main
 
-git push origin main
+git push origin main or git push
 
-git push
+# update develop branch
+git checkout develop
+
+git merge main
